@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+html, body {
+margin: 0;
+padding: 0;
+}
+*/
+
+@font-face {
+    font-family: 'Archer';
+    src: url('../fonts/Archer/Archer-Book-Pro.otf') format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archer';
+    src: url('../fonts/Archer/Archer-BookItal-Pro.otf') format('opentype');
+    font-weight:normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Archer';
+    src: url('../fonts/Archer/Archer-Medium-Pro.otf') format('opentype');
+    font-weight:bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archer';
+    src: url('../fonts/Archer/Archer-MediumItal-Pro.otf') format('opentype');
+    font-weight:bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Archer';
+    src: url('../fonts/Archer/Archer-SembdItal-Pro.otf') format('opentype');
+    font-weight:bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archer';
+    src: url('../fonts/Archer/Archer-Semibold-Pro.otf') format('opentype');
+    font-weight:bolder;
+    font-style: italic;
+}
+
+
+#wrapper {
+	width:1024px;
+	margin:0;
+	padding:0;
+	border:1px solid red;
+}
+
+body {
+	background-image:url(../images/PaperTexture.jpg);
+	background-repeat:repeat;
+	font-family:"Archer", Georgia, serif;
+	font-weight:bolder;
+	font-style:normal;
+	margin:0;
+	padding:0;
+	color:rgb(99,100,102);
+}
+
+hr.top_rule {
+	background:rgb(187,226,222);
+	height:16px;
+	margin:0;
+	border:0;
+}
+
+#logo {
+	height:130px;
+	background-image:url(../images/Logo_DonnaDeschamps.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:30px;
+	padding-bottom:10px; 
+	border:1px solid blue;
+}
+
+.nav {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	width:800px;
+	height:35px;
+	border-top:2px dotted rgb(22,157,160);
+	border-bottom:2px dotted rgb(22,157,160);
+	text-align:center;
+	list-style-type:none;
+}
+
+.nav li {
+	display:inline;
+}
+
+.nav li a {
+	text-decoration:none;
+	font-size:15px;
+	letter-spacing:1px;
+	color:rgb(99,100,102);
+	text-decoration:none;
+}
+
+.nav li a:hover {
+	color:rgb(22,157,160);
+	font-weight:bolder;
+}
+
+.nav li a:visited {
+	color:rgb(99,100,102);
+	font-weight:bolder;
+}
+
+.nav span {
+	color:rgb(171,32,141);
+	font-size: 1.5em;
+	margin: 0 8px;
+}
+
+h1 {
+	color:rgb(22,157,160);
+	font-weight:bold;
+	font-size:2em;
+	letter-spacing:1px;
+	text-align:center;
+	font-weight:normal;
+	margin-top:35px;
+	margin-bottom:10px;
+	border:1px solid black;	
+}
+
+h2 {
+  	font-weight:bold;
+    font-style:italic;	
+	font-size:1em;
+	text-align:center;
+	color:rgb(99,100,102);
+	padding-bottom:35px;
+	border:1px solid orange;
+}
+
+h3 {
+	font-family: ‘Ubuntu’, Arial, sans-serif; font-weight:500;
+	font-size:15px;
+	color:rgb(171,32,141);
+	letter-spacing:2px;
+	padding-top:10px;
+	}
+	
+div#main_image {
+	height:552px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:62px;
+	background-image:url(../images/CroftonHouse_Main.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+div#portfolio {
+	width:100%;
+	margin:0;
+	padding-bottom:30px;
+	float:left;
+	font-size:14px;
+	line-height:18px;
+	text-align:center;
+	border:1px solid red;
+}
+
+div#blog-content {
+	width:623px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	background-position:center;
+	background-repeat:no-repeat;
+	border:1px solid purple;
+}
+
+.post-date {
+	float:left;
+	color:rgb(22,157,160);
+	font-size:11px;
+	margin-top:18px;
+	border:1px solid red;
+	
+}
+
+.post-title {
+	float:left;
+	font-family: ‘Ubuntu’, Arial, sans-serif; font-weight:500;
+	font-size:15px;
+	color:rgb(171,32,141);
+	letter-spacing:2px;
+	margin-top:5px;
+	}
+
+.blog-body {
+	float:left;
+	font-size:14px;
+	line-height:23px;
+	margin-top:0;
+	padding-bottom:20px;
+}
+		
+div#table {
+	width:887px;
+	margin:auto;
+	margin-bottom:30px;
+	border:4px double rgb(22,157,160);
+}
+
+div#column-left {
+	width:200px;
+	background-image:url(../images/DonnaDeschamps_Profile.jpg);
+	background-repeat:no-repeat;
+	margin:20px;
+	padding-top:20px;
+	border:1px solid red;
+}
+
+#left {
+	width:25%;
+	padding:0 2.5% 0 5%;
+	float:left;
+	}
+	
+#center {
+	width:25%;
+	padding:0 2.5% 0 5%;
+	float:left;
+	}
+
+#right {
+	width:25%;
+	padding:0 5% 0 2.5%;
+	float:right;
+	}
+	
+	
+
+/*
+#inner-left {
+width: 18.75%;
+padding: 0 2.5%;
+float: left;
+}
+
+#inner-right {
+width: 18.75%;
+padding: 0 2.5%;
+float: left;
+}
+
+#right {
+width: 18.75%;
+padding: 0 5% 0 2.5%;
+float: left;
+}
+*/
+
+footer {
+	height:35px;
+	float:left;
+	padding-top:20px;
+	min-width:100%;
+	background:rgb(187,226,222);
+	color:rgb(99,100,102);
+	font-size:12px;
+	text-align:center;
+	letter-spacing:1.5px;
+	font-weight:bold;
+	font-style:normal;
+}
+
+	
+	
+	
+	

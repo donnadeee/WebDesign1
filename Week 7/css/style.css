@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	border:0px solid red;
+}
+
+div.container: 
+{
+	border:1px solid gray;
+}

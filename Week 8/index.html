@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple JS script</title>
+</head>
+
+<h1>My first JS experience</h1>
+
+<p id="text-to-change">This is the paragraph we are going to change.</p>
+
+<button type="button" onMouseOut="changeText ()">Check this out...Click me!</button>
+
+<script>
+function changeText () {
+	
+	x=document.getElementById("text-to-change");
+	x.innerHTML="Javascript is fun! Woohoo!";
+	}
+	
+
+</script>
+
+<body>
+</body>
+</html>

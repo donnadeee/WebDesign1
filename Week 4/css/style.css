@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	
+	
+	}
+	
+a {
+	font: normal bold 15px Verdana, Geneva, sans-serif;
+	color:#60C
+		
+	}
+	
+a:visited {
+	font: normal bold 15px Verdana, Geneva, sans-serif;
+	color:#999;
+	text-decoration:none;
+}
+
+a:hover {
+	font: normal bold 15px Verdana, Geneva, sans-serif;
+	color:#F09;
+	text-decoration:none;
+}
+
+div#portrait {
+	width:500px;
+	height:500px;
+	border:5px solid black;
+	background-image:url(
+}
+
+div#portrait:hover {
+	width:500px;
+	height:500px;
+	border:5px solid black;
+	background-image:url(
+}
+
+		
+	
+
+h1 { 
+color:blue; font-size:36px;
+border:1px solid red;
+margin:0px;
+padding:0px;
+}
+
+p {
+	background-color:#060;
+	color:#fff;
+	width:200em;
+}
+
+p.longer {
+	width:500px;
+}
+
+#mega {
+	font size:75px;
+	padding:20px
